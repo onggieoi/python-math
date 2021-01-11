@@ -14,9 +14,17 @@ Geometrically, the derivative of a function represents the gradient of the curve
       (x^n+1)/(n+1), so to integrate a polynomial, we increase each power of x by 1 and divide the 
       corresponding coefficient by the new power.
 
+
+
+
 -----------
 using Sympy package to easy calcula differentiation and Integration
 
 using from sympy.utilities import lambdify
  - > This converts a SymPy expression to a numerical expression that uses the NumPy
 equivalents of the SymPy standard functions to evaluate the expressions numerically
+
+
+
+
+------------ Solving simple differential equations numerically ----------------
