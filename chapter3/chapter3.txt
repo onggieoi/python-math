@@ -1,0 +1,22 @@
+---------- Calculus and Differential Equations ---------------
+
+- Calculus is the branch of mathematics that concerns the processes of differentiation and integration
+Geometrically, the derivative of a function represents the gradient of the curve of the function, and the 
+    integral of a function represents the area below the curve of the function
+
+- simple Calculus but represents the core idea: 
+  For powers of a variable x, the rule for differentiation is to multiply by the power and reduce 
+      the power by 1, so that x^n becomes n * x^(n-1).
+
+  Integration is more complex, since the integral of a function is not unique. We can add any
+      constant to an integral and obtain a second integral. For powers of a variable x, the rule for
+      integration is to increase the power by 1 and divide by the new power, so that x^n becomes 
+      (x^n+1)/(n+1), so to integrate a polynomial, we increase each power of x by 1 and divide the 
+      corresponding coefficient by the new power.
+
+-----------
+using Sympy package to easy calcula differentiation and Integration
+
+using from sympy.utilities import lambdify
+ - > This converts a SymPy expression to a numerical expression that uses the NumPy
+equivalents of the SymPy standard functions to evaluate the expressions numerically
